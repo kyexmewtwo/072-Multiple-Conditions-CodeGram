@@ -13,6 +13,7 @@ else if(filter === 'SOMA'){
 }       
 else{
     $("img").css("filter", "contrast(115%) hue-rotate(-10deg) saturate(180%)");  
+}
 });
 
 $(".reset").click(function() {
